@@ -38,7 +38,7 @@ app.post("/", function(req,res){
   
   const options = {
     method: "POST", 
-    auth: "tate1:f1bef013b3c9607deaf315bb0457268b-us10"
+    auth: "tate1:-----------------------------------"
   };  
 
   const request = https.request(url, options, function(response){
@@ -70,6 +70,6 @@ app.listen(3000, function(){
 });
 
 // app api key
-// f1bef013b3c9607deaf315bb0457268b-us10
+// ----------------------
 // audience id 
-// 7838118e71
+// ----------------------
